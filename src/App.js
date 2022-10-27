@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Header';
 import QuoteCard from './QuoteCard';
+import QuoteCard_two from './QuoteCard_two';
 
 function App() {  
 
@@ -9,7 +10,7 @@ function App() {
         <Header />
         <h1>Quotes</h1>
         <QuoteCard />
-        <QuoteCard />
+        <QuoteCard_two />
       </div>
     
   );

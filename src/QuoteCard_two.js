@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './QuoteCard.css';
 
-export default class QuoteCard extends Component {
+export default class QuoteCard_two extends Component {
 
   constructor(){
     super()
@@ -44,8 +44,8 @@ export default class QuoteCard extends Component {
       <div className='quotecard-space'>
         <div className='quotecard-container'>
             <h1>{this.state.title}</h1>
-            <img src={this.state.url_one}/>
-            <p>{this.state.quote_one}</p>
+            <img src={this.state.url_two}/>
+            <p>{this.state.quote_two}</p>
             <button onClick={this.changeTitle}>Change Parent's Title</button>
             <button onClick={this.changeTitle}>Change My Title</button>
         </div>
