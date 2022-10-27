@@ -27,7 +27,7 @@ export default class QuoteCard extends Component {
 
   componentDidMount(){
     fetch('https://quote-garden.herokuapp.com/api/v3/quotes')
-    .then(res=>res.json)
+    .then(res=>res.json())
     .then(response=>{
       console.log(response.data[0].quoteText)
       this.setState({
